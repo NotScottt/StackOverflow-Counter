@@ -1,5 +1,5 @@
-addValues = () => {localStorage.setItem("stackOverflowVisits", Number(localStorage.getItem("stackOverflowVisits")) + 1)}
-getValues = () => {return (localStorage.getItem("stackOverflowVisits"))}
+addValues = () => { localStorage.setItem("stackOverflowVisits", Number(localStorage.getItem("stackOverflowVisits")) + 1) }
+getValues = () => { return (localStorage.getItem("stackOverflowVisits")) }
 
 if (getValues() == null) {
     localStorage.setItem("stackOverflowVisits", 0)
